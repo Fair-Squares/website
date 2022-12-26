@@ -1,5 +1,5 @@
-# frequency-xyz
-Frequency Website
+# fair-squares
+FS Website
 
-This site makes use of the Basically Basic Jekyll Theme:
+This site is forked from frequency-xyz that makes use of the Basically Basic Jekyll Theme:
 https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE

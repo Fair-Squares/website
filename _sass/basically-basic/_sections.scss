@@ -27,11 +27,11 @@
       padding:10vw 5vw;
         &::before {
             content: "";
-            background-image: url(/assets/images/illustration-01.jpg); 
+            background-image: url(/assets/images/fs-background-1.jpg); 
             background-repeat: no-repeat; background-position: right bottom; background-size: 150%;
             position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px;
             z-index: -1; opacity:.8;
-            @media screen and (max-width:$small) {background-image: url(/assets/images/illustration-01-mobile.jpg);}
+            @media screen and (max-width:$small) {background-image: url(/assets/images/fs-background-1-small.jpg);}
         }
         .sub-intro-text {display:flex; flex-direction:column;}
         .intro-title {position:relative; left: unset; right: unset; top: unset; margin-left: unset; margin:0px auto; text-shadow: 5px 2px 30px $blue;} 
@@ -213,13 +213,13 @@
   h3 {text-align:center; color:$white; margin-bottom:3rem;}
   .inner {max-width:unset; padding:5vw; width:100vw;}
   &:before {
-    background-image: url('/assets/images/illustration-02.jpg'); background-repeat: no-repeat;
+    background-image: url('/assets/images/fs-background-2.jpg'); background-repeat: no-repeat;
     background-position: bottom right; background-size: cover; position: absolute;
     top: 0; left: 0px; right: 0px; bottom: 0px; min-height:100vh;
     z-index: -1;
     content: "";
     @media screen and (max-width:$medium){
-      background-image: url('/assets/images/illustration-02-mobile.jpg');
+      background-image: url('/assets/images/fs-background-2-small.jpg');
     }
   }
   ul {

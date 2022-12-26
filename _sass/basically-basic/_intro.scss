@@ -85,7 +85,7 @@
 
 .layout--home {
   .parallax-wrapper .parallax-1::before {
-    background-image: url('/assets/images/illustration-01.jpg');
+    background-image: url('/assets/images/fs-background-1.jpg');
   }
   #fixedTitle {padding:0 15vw;}
   .sub-hero-wrapper {
@@ -115,7 +115,7 @@
   #fixedTitle {padding:0 5vw; top:22vw;}
   .parallax-wrapper .parallax-1 {
     &::before {
-      background-image: url('/assets/images/illustration-02.jpg');
+      background-image: url('/assets/images/fs-background-2.jpg');
       }
   }
   .subheading-text {
@@ -244,7 +244,7 @@
 @media screen and (max-width:$medium){
   .layout--home {
     .parallax-wrapper .parallax::before {
-      background-image: url('/assets/images/illustration-01-mobile.jpg');
+      background-image: url('/assets/images/fs-background-1-small.jpg');
     }  
   }
 }
@@ -258,7 +258,7 @@
 @media screen and (max-width:$medium){
   .layout--about {
     .parallax-wrapper .parallax::before {
-      background-image: url('/assets/images/illustration-02-mobile.jpg');
+      background-image: url('/assets/images/fs-background-2-small.jpg');
     }  
   }
 }
