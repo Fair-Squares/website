@@ -69,17 +69,6 @@
     .innerQ {justify-content:left; text-align:left;}
     .quoteWrapper {margin-right:40%;}
   }
-  &.braxton {
-    background-image:url('/assets/images/photo-braxton.jpg');
-  }
-  &.harry {
-    background-image:url('/assets/images/photo-harry.jpg');
-    background-position:bottom right;
-  }
-  &.gavin {
-    background-image:url('/assets/images/photo-gavin.png');
-    @media screen and (max-width:$large){background-position:bottom center;}
-  }
   &.withIntro {
     background-size:auto 50%; display: flex; flex-direction: column; min-height:80vh;
     @media (orientation: portrait) {background-size:contain;}
