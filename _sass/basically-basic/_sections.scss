@@ -127,7 +127,7 @@
 
 
 .timeline {
-  background: url('/assets/images/bg_gradient.png') no-repeat; background-size:cover;
+  background: url('/assets/images/colorkit-2.png') no-repeat; background-size:cover;
   position:relative;
   width:100vw; 
   height:80vh; @media (orientation: portrait) {height:60vh;}
@@ -166,7 +166,7 @@
       /* ===== Scrollbar CSS ===== */
       /* Firefox */
     
-      scrollbar-width: auto; scrollbar-color: #29fd47 #ffffff;
+      scrollbar-width: auto; scrollbar-color: #39A6A3 #ffffff;
        /* Chrome, Edge, and Safari */
        &::-webkit-scrollbar {
         width: 8px; z-index:1000; position:fixed;
@@ -177,7 +177,7 @@
       }
 
       &::-webkit-scrollbar-thumb {
-        background-color: #29fd47;
+        background-color: #39A6A3;
         border-radius: $border-radius;
         border: 1px solid #ffffff;
       }
@@ -248,10 +248,10 @@
 }
   
 .chart {
-  list-style:none; margin:1.5rem 0 3rem 0;  /*border: 1px solid #29FD47;*/ border-radius: $border-radius;
+  list-style:none; margin:1.5rem 0 3rem 0;  /*border: 1px solid #39A6A3;*/ border-radius: $border-radius;
   display: grid; grid-template-columns: 44vw 44vw; grid-template-rows: 1fr; /*grid-gap: 2vw;*/ padding:2vw; background-size: cover;
   li {
-    border-radius:$border-radius; border: 2px solid #29FD47; 
+    border-radius:$border-radius; border: 2px solid #39A6A3; 
     &.heading {
       border:transparent; padding:1.5rem 1.75rem 0.4rem;  background:none !important; 
       h3 { 
@@ -265,7 +265,7 @@
     &:nth-child(3) {border-radius: 0 1.5rem 0 0; }
     &:nth-child(4) {border-radius: 0 0 0 1.5rem;}
     &:nth-child(5) {border-radius: 0 0 1.5rem 0;}
-    &:nth-child(odd) {background: #F9F9FF; color: #4473ec; border-left:none; }
+    &:nth-child(odd) {background: #F9F9FF; color: #67253b; border-left:none; }
     &:nth-child(even) {background:#f1f1f1; color:#aaa; border-right:none; }
 
     div {

@@ -57,17 +57,19 @@ $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
   monospace !default;  
 
 /* Colors */
-$base-color: #222222 !default;
-$text-color: #4473EC !default;
-$accent-color: #29FD47 !default;
+$base-color: #231E23 !default;
+$text-color: #231E23 !default;
+$accent-color: #39A6A3 !default;
 $background-color: #fff !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 $overlay-color: $base-color !default;
 
+// FS #231E23   green #39A6A3 lightgreen #DEEEEA  fairsquares pink #BF1363
+
 /* Frequency Brand Colors */
 $white: #ffffff;
-$green:#0c618f !default; 
+$green:#BF1363 !default; 
 $charcoal:#222222;
 $blue: #d225be !default;
 
