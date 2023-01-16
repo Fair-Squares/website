@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Fair Squares
+title: "Fair Squares website"
 email: hello@fair-squares.nl
 description: "Homepage of Fair Squares"
 baseurl: "/website/"
@@ -86,3 +86,7 @@ defaults:
     values:
       layout: post
       read_time: true
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
