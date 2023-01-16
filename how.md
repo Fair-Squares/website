@@ -1,7 +1,9 @@
 ---
 layout: how
 title: How
-headline: "Soon, builders can embed decentralized social at a low, predictable cost."
-subheadline: "When blockchain technology is applied to the high-volume, low-value transactions of social networks—messages, posts, and likes—the cost quickly overwhelms business models. Yet blockchains can unlock an exciting new era of social networking apps that enable people to interact in a public digital space and retain agency over their data. Frequency changes the way blockchain transactions are priced so blockchain technology can be leveraged for social networking at the scale of network effects." 
+headline: "Hopefully in the near future, investors, home-owners, businesses can all participate in equitable system that works for all"
+subheadline: "We are building a protocol that will allow anyone to participate in the housing market, and we are building a community that will help us to make it happen"
+subheadline2: "We are building a protocol/platform that will allow anyone to participate in the housing market, from all angles."
+
 
 ---

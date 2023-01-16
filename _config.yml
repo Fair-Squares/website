@@ -14,19 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Frequency
+title: Fair Squares
 email:
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: https://frequency.xyz 
+url: https://www.fair-squares.nl
 author:
   name:
   twitter:
   picture:
-twitter_username: one_frequency
-github_username: LibertyDSNP/frequency
-discord_username: invite/JchmHX5afV
-logo: assets/images/logo.svg
+twitter_username: FairSquares
+github_username: Fair-squares
+discord_username: invite/5u3dxE49V5
+linkedin_username: /company/fairsquares
+logo: assets/images/logo.png
 search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia

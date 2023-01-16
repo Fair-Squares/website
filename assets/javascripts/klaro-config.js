@@ -25,7 +25,7 @@ var klaroConfig = {
     // store user consent. If undefined, Klaro will use 'klaro'.
 
     // Put a link to your privacy policy here (relative or absolute).
-    privacyPolicy: "https://www.frequency.xyz/privacy.html",
+    privacyPolicy: "https://www.fair-squares.nl/privacy.html",
 
     // Defines the default state for applications (true=enabled by default).
     default: true,
@@ -105,7 +105,7 @@ var klaroConfig = {
                 // is not the current domain. If you do not set these values
                 // properly, the cookie can't be deleted by Klaro
                 // (there is no way to access the path or domain of a cookie in JS)
-                [/^_pk_.*$/, "/", ".frequency.xyz"], //for the production version
+                [/^_pk_.*$/, "/", ".fair-squares.nl"], //for the production version
                 ["^_pk_.*$/", "/", "localhost"], //for the local version
                 'piwik_ignore',
             ],
