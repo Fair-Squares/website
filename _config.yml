@@ -17,9 +17,9 @@ lang: en-US
 title: "Fair Squares website"
 email: hello@fair-squares.nl
 description: "Homepage of Fair Squares"
-baseurl: "/website/"
+baseurl: "/"
 domain: fair-squares.github.io
-url: https://fair-squares.github.io
+url: https://fair-squares.github.io/website
 author:
   name: Fair Squares
   twitter: FairSquares
