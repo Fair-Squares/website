@@ -127,7 +127,7 @@
 
 
 .timeline {
-  background: url('/assets/images/colorkit-2.png') no-repeat; background-size:cover;
+  background: url('{{ site.baseurl }}{{ post.url }}/assets/images/colorkit-2.png') no-repeat; background-size:cover;
   position:relative;
   width:100vw; 
   height:80vh; @media (orientation: portrait) {height:60vh;}
