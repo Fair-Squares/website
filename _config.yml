@@ -27,7 +27,7 @@ twitter_username: FairSquares
 github_username: Fair-squares
 discord_username: invite/5u3dxE49V5
 linkedin_username: /company/fairsquares
-logo: /assets/images/logo.png
+logo: "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
