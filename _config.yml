@@ -86,7 +86,3 @@ defaults:
     values:
       layout: post
       read_time: true
-  - scope:
-      path: "assets/images"
-    values:
-      image: true
