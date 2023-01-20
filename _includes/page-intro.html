@@ -5,7 +5,7 @@
 <div class="parallax-wrapper">
 
   <div class="parallax parallax-1"> 
-    {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
+    {% assign intro_image = page.image.path | default: page.image | escape %}
     <div class="intro-image">
        <img class="screen-reader-text" src="{{ intro_image }}" alt="{{page.hero_alt}}">
     </div>
