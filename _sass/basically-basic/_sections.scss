@@ -246,6 +246,10 @@
   h2, h3, h4, h5, p {text-align:left; padding:0;}
   //text-align:center;
 }
+.contentBlock-video {
+  background:$white;
+    //text-align:center;
+}
   
 .chart {
   list-style:none; margin:1.5rem 0 3rem 0;  /*border: 1px solid #39A6A3;*/ border-radius: $border-radius;
