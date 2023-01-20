@@ -102,7 +102,7 @@
     position:relative; padding:0 32% 0 0; text-align:left; 
     &:before {
       content:'';
-      background: url('/assets/images/logo-polkadot.png') no-repeat; position: absolute;
+      background: url('https://github.com/substrate-developer-hub/substrate-docs/raw/main/static/img/sub.gif') no-repeat; position: absolute;
       right: 0; top: -.4rem; width: 28%; height: 100%;
       min-height: 100px; min-width: 150px;
       background-size: 100%; display: block;
