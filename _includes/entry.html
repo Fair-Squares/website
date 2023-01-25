@@ -7,10 +7,10 @@
 <article class="entry">
   <header class="entry-header">
     <h3 class="entry-title">
-      <a href="{{ post.url | relative_url }}" rel="bookmark">{{ title }}</a>
+      <a href="{{ post.url }}" rel="bookmark">{{ title }}</a>
     </h3>
     {% if post.image.thumbnail %}
-      {% assign entry_image = post.image.thumbnail | relative_url | escape %}
+      {% assign entry_image = post.image.thumbnail | escape %}
       <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
     {% endif %}
   </header>
@@ -27,7 +27,7 @@
   <div class="entry-excerpt">
     {% if post.excerpt %}
       {{ post.excerpt | markdownify }}
-      <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
+      <p><a href="{{ post.url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <span class="icon icon--arrow-right">{% include icon-arrow-right.svg %}</span></a></p>
     {% endif %}
   </div>
 </article>
