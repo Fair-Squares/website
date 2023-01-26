@@ -127,7 +127,7 @@
 
 
 .timeline {
-  background: url('{{ site.baseurl }}{{ post.url }}/assets/images/colorkit-2.png') no-repeat; background-size:cover;
+  background: url('/assets/images/colorkit.png') no-repeat; background-size:cover;
   position:relative;
   width:100vw; 
   height:80vh; @media (orientation: portrait) {height:60vh;}
@@ -223,7 +223,7 @@
       img {width:100%; margin-bottom:1rem;}
       p {margin-bottom:1rem;}
       .linkedIn {
-        background: url('/assets/images/icon-linkedin.svg') no-repeat;
+        background: url('/assets/images/icons8-linkedin-circled-100.svg') no-repeat;
         background-position:center;
         background-size:2rem;
         display:block; color:$green; height:2rem; margin-bottom:1rem;
