@@ -97,33 +97,60 @@
 }
    
 .collab {
-  color:$charcoal;
+  color: $charcoal;
+  
   h3 {
-    position:relative; padding:0 32% 0 0; text-align:left; 
+    position: relative; 
+    padding: 0 32% 0 0; 
+    text-align: left; 
+    
     &:before {
-      content:'';
-      background: url('https://github.com/substrate-developer-hub/substrate-docs/raw/main/static/img/sub.gif') no-repeat; position: absolute;
-      right: 0; top: -.4rem; width: 28%; height: 100%;
-      min-height: 100px; min-width: 150px;
-      background-size: 100%; display: block;
+      content: '';
+      background: url('https://github.com/substrate-developer-hub/substrate-docs/raw/main/static/img/sub.gif');
+      position: absolute;
+      right: 0; 
+      top: -.4rem; 
+      width: 28%; 
+      height: 100%;
+      min-height: 100px; 
+      min-width: 150px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: block;
+      z-index: 2;
     }
-    @media screen and (max-width:$small) {
+    
+    @media screen and (max-width: $small) {
       padding: 5rem 0 0 0;
-      &:before {right:unset; left:0;}
+      &:before {
+        right: unset; 
+        left: 0;
+      }
     }
   }
+  
   ul {
-    list-style:none; display:flex; justify-content:start; padding:0; margin:3rem 0 0;
-    li {width:46%;}
-    li:first-child {margin-right:3rem;}
-    a {width:100%; padding-left:0; padding-right:0;}
-    @media screen and (max-width:600px){
-      flex-direction:column;
-      li {width:100%; margin:0 0 2rem 0;}
-
+    list-style: none; 
+    display: flex; 
+    justify-content: start; 
+    padding: 0; 
+    margin: 3rem 0 0;
+    
+    li {width: 46%;}
+    li:first-child {margin-right: 3rem;}
+    a {width: 100%; padding-left: 0; padding-right: 0;}
+    
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      li {
+        width: 100%; 
+        margin: 0 0 2rem 0;
+      }
     }
   }
 }
+
 
 
 .timeline {
