@@ -17,6 +17,7 @@
   <div class="content-outer">
     <div class="p-section-inner">
       <div>
+        {% if page.layout != 'post' %}
          <div id="sub-hero-wrapper" class="sub-hero-wrapper scroll-marker"> 
           {% if page.url == '/' %} 
             <div style="position:absolute; top:-3rem; left:0; width:1px; height:1px;" id="scroll-marker-2"></div> 
@@ -24,7 +25,8 @@
             <div class="section-siteNav">
               {% include nav-pages.html %}
             </div>
-          {% endif %}    
+          {% endif %}
+        {% endif %}
           <video poster="/assets/images/colorkit-2.png" autoplay loop muted playsinline height=40px id="bgvid">
           </video>
           <div class="subheading-text">
@@ -34,7 +36,7 @@
                   <p class="large">{{ page.subheadline | default: page.subheadline | default: site.subheadline | markdownify | strip_html }}</p>
                 <!--{% endif %}--> 
                 <!--{% if page.subheadline2 %}-->
-                  <p class="large">{{ page.subheadline2 | default: page.subheadline | default: site.subheadline | markdownify | strip_html }}</p>
+                <p class="large">{{ page.subheadline2 | default: page.subheadline | default: site.subheadline | markdownify | strip_html }}</p>
                 <!--{% endif %}--> 
                 <!--{% if page.subheadline3 %}-->
                 <p class="large">{{ page.subheadline3 | default: page.subheadline | default: site.subheadline | markdownify | strip_html }}</p>
